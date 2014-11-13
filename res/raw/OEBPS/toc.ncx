@@ -1,0 +1,1305 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE ncx PUBLIC "-//NISO//DTD ncx 2005-1//EN" "http://www.daisy.org/z3986/2005/ncx-2005-1.dtd">
+<ncx version="2005-1" xmlns="http://www.daisy.org/z3986/2005/ncx/">
+  <head>
+    <meta name="dtb:uid" content="FB2BookID" />
+    <meta name="dtb:depth" content="4" />
+    <meta name="dtb:totalPageCount" content="0" />
+    <meta name="dtb:maxPageNumber" content="0" />
+  </head>
+  <docTitle>
+    <text>Психбольница в руках пациентов -0</text>
+  </docTitle>
+  <navMap>
+    <navPoint id="NavPoint-1" playOrder="1">
+      <navLabel>
+        <text>Алан Купер  Психбольница в руках пациентов  Почему высокие технологии сводят нас с ума и как восстановить душевное равновесие</text>
+      </navLabel>
+      <content src="section2.xhtml" />
+      <navPoint id="NavPoint-2" playOrder="2">
+        <navLabel>
+          <text>Отзывы на книгу Алана Купера</text>
+        </navLabel>
+        <content src="section3.xhtml" />
+      </navPoint>
+      <navPoint id="NavPoint-3" playOrder="3">
+        <navLabel>
+          <text>Об авторе</text>
+        </navLabel>
+        <content src="section4.xhtml" />
+      </navPoint>
+      <navPoint id="NavPoint-4" playOrder="4">
+        <navLabel>
+          <text>Благодарности</text>
+        </navLabel>
+        <content src="section5.xhtml" />
+      </navPoint>
+      <navPoint id="NavPoint-5" playOrder="5">
+        <navLabel>
+          <text>Предисловие научного редактора</text>
+        </navLabel>
+        <content src="section6.xhtml" />
+      </navPoint>
+      <navPoint id="NavPoint-6" playOrder="6">
+        <navLabel>
+          <text>Предисловие</text>
+        </navLabel>
+        <content src="section7.xhtml" />
+      </navPoint>
+      <navPoint id="NavPoint-7" playOrder="7">
+        <navLabel>
+          <text>Введение</text>
+        </navLabel>
+        <content src="section8.xhtml" />
+        <navPoint id="NavPoint-8" playOrder="8">
+          <navLabel>
+            <text>Книга-обоснование</text>
+          </navLabel>
+          <content src="section9.xhtml" />
+        </navPoint>
+        <navPoint id="NavPoint-9" playOrder="9">
+          <navLabel>
+            <text>Инженер, сведущий в бизнесе, либо бизнесмен, сведущий в технологии</text>
+          </navLabel>
+          <content src="section10.xhtml" />
+        </navPoint>
+      </navPoint>
+      <navPoint id="NavPoint-10" playOrder="10">
+        <navLabel>
+          <text>Часть I  Компьютерная безграмотность</text>
+        </navLabel>
+        <content src="section11.xhtml" />
+        <navPoint id="NavPoint-11" playOrder="11">
+          <navLabel>
+            <text>Глава 1  Загадки века информации</text>
+          </navLabel>
+          <content src="section12.xhtml" />
+          <navPoint id="NavPoint-12" playOrder="12">
+            <navLabel>
+              <text>Что получится, если скрестить компьютер с самолетом?</text>
+            </navLabel>
+            <content src="section13.xhtml" />
+          </navPoint>
+          <navPoint id="NavPoint-13" playOrder="13">
+            <navLabel>
+              <text>Что получится, если скрестить компьютер с фотокамерой?</text>
+            </navLabel>
+            <content src="section14.xhtml" />
+          </navPoint>
+          <navPoint id="NavPoint-14" playOrder="14">
+            <navLabel>
+              <text>Что получится, если скрестить компьютер с будильником?</text>
+            </navLabel>
+            <content src="section15.xhtml" />
+          </navPoint>
+          <navPoint id="NavPoint-15" playOrder="15">
+            <navLabel>
+              <text>Что получится, если скрестить компьютер с автомобилем?</text>
+            </navLabel>
+            <content src="section16.xhtml" />
+          </navPoint>
+          <navPoint id="NavPoint-16" playOrder="16">
+            <navLabel>
+              <text>Что получится, если скрестить компьютер с банком?</text>
+            </navLabel>
+            <content src="section17.xhtml" />
+          </navPoint>
+          <navPoint id="NavPoint-17" playOrder="17">
+            <navLabel>
+              <text>Компьютер позволяет легко попасть в беду</text>
+            </navLabel>
+            <content src="section18.xhtml" />
+          </navPoint>
+          <navPoint id="NavPoint-18" playOrder="18">
+            <navLabel>
+              <text>Коммерческое программное обеспечение тоже страдает</text>
+            </navLabel>
+            <content src="section19.xhtml" />
+          </navPoint>
+          <navPoint id="NavPoint-19" playOrder="19">
+            <navLabel>
+              <text>Что получится, если скрестить компьютер с военным кораблем?</text>
+            </navLabel>
+            <content src="section20.xhtml" />
+          </navPoint>
+          <navPoint id="NavPoint-20" playOrder="20">
+            <navLabel>
+              <text>Техноярость</text>
+            </navLabel>
+            <content src="section21.xhtml" />
+          </navPoint>
+          <navPoint id="NavPoint-21" playOrder="21">
+            <navLabel>
+              <text>Индустрия в «несознанке»</text>
+            </navLabel>
+            <content src="section22.xhtml" />
+          </navPoint>
+          <navPoint id="NavPoint-22" playOrder="22">
+            <navLabel>
+              <text>Мотивы создания этой книги</text>
+            </navLabel>
+            <content src="section23.xhtml" />
+          </navPoint>
+        </navPoint>
+        <navPoint id="NavPoint-23" playOrder="23">
+          <navLabel>
+            <text>Глава 2  Когнитивное сопротивление</text>
+          </navLabel>
+          <content src="section24.xhtml" />
+          <navPoint id="NavPoint-24" playOrder="24">
+            <navLabel>
+              <text>Поведение, не связанное с физическими силами</text>
+            </navLabel>
+            <content src="section26.xhtml" />
+          </navPoint>
+          <navPoint id="NavPoint-25" playOrder="25">
+            <navLabel>
+              <text>Проектирование 6  – слово емкое</text>
+            </navLabel>
+            <content src="section27.xhtml" />
+          </navPoint>
+          <navPoint id="NavPoint-26" playOrder="26">
+            <navLabel>
+              <text>Отношения между программистами и проектировщиками</text>
+            </navLabel>
+            <content src="section28.xhtml" />
+          </navPoint>
+          <navPoint id="NavPoint-27" playOrder="27">
+            <navLabel>
+              <text>Большинство программ проектируются случайным образом</text>
+            </navLabel>
+            <content src="section29.xhtml" />
+          </navPoint>
+          <navPoint id="NavPoint-28" playOrder="28">
+            <navLabel>
+              <text>Проектирование «взаимодействия» против проектирования «интерфейса»</text>
+            </navLabel>
+            <content src="section30.xhtml" />
+          </navPoint>
+          <navPoint id="NavPoint-29" playOrder="29">
+            <navLabel>
+              <text>Отличительные черты продуктов, основанных на программном обеспечении</text>
+            </navLabel>
+            <content src="section31.xhtml" />
+          </navPoint>
+          <navPoint id="NavPoint-30" playOrder="30">
+            <navLabel>
+              <text>Танцующий медведь</text>
+            </navLabel>
+            <content src="section32.xhtml" />
+          </navPoint>
+          <navPoint id="NavPoint-31" playOrder="31">
+            <navLabel>
+              <text>Стоимость дополнительных возможностей программного обеспечения</text>
+            </navLabel>
+            <content src="section33.xhtml" />
+          </navPoint>
+          <navPoint id="NavPoint-32" playOrder="32">
+            <navLabel>
+              <text>Апологеты и уцелевшие</text>
+            </navLabel>
+            <content src="section34.xhtml" />
+          </navPoint>
+          <navPoint id="NavPoint-33" playOrder="33">
+            <navLabel>
+              <text>Наша реакция на когнитивное сопротивление</text>
+            </navLabel>
+            <content src="section35.xhtml" />
+          </navPoint>
+          <navPoint id="NavPoint-34" playOrder="34">
+            <navLabel>
+              <text>Демократизация власти потребителя</text>
+            </navLabel>
+            <content src="section36.xhtml" />
+          </navPoint>
+          <navPoint id="NavPoint-35" playOrder="35">
+            <navLabel>
+              <text>Виноват пользователь</text>
+            </navLabel>
+            <content src="section37.xhtml" />
+          </navPoint>
+          <navPoint id="NavPoint-36" playOrder="36">
+            <navLabel>
+              <text>Программный апартеид</text>
+            </navLabel>
+            <content src="section38.xhtml" />
+          </navPoint>
+        </navPoint>
+      </navPoint>
+      <navPoint id="NavPoint-37" playOrder="37">
+        <navLabel>
+          <text>Часть II  Масштабные издержки</text>
+        </navLabel>
+        <content src="section39.xhtml" />
+        <navPoint id="NavPoint-38" playOrder="38">
+          <navLabel>
+            <text>Глава 3  Пустая трата денег</text>
+          </navLabel>
+          <content src="section40.xhtml" />
+          <navPoint id="NavPoint-39" playOrder="39">
+            <navLabel>
+              <text>Управление, ориентированное на крайние сроки сдачи</text>
+            </navLabel>
+            <content src="section42.xhtml" />
+          </navPoint>
+          <navPoint id="NavPoint-40" playOrder="40">
+            <navLabel>
+              <text>Что такое «готово»?</text>
+            </navLabel>
+            <content src="section43.xhtml" />
+          </navPoint>
+          <navPoint id="NavPoint-41" playOrder="41">
+            <navLabel>
+              <text>Закон Паркинсона</text>
+            </navLabel>
+            <content src="section44.xhtml" />
+          </navPoint>
+          <navPoint id="NavPoint-42" playOrder="42">
+            <navLabel>
+              <text>Продукт, вечно не готовый к выпуску</text>
+            </navLabel>
+            <content src="section45.xhtml" />
+          </navPoint>
+          <navPoint id="NavPoint-43" playOrder="43">
+            <navLabel>
+              <text>Поздний выпуск – не беда</text>
+            </navLabel>
+            <content src="section46.xhtml" />
+          </navPoint>
+          <navPoint id="NavPoint-44" playOrder="44">
+            <navLabel>
+              <text>Торг за набор функций</text>
+            </navLabel>
+            <content src="section47.xhtml" />
+          </navPoint>
+          <navPoint id="NavPoint-45" playOrder="45">
+            <navLabel>
+              <text>Кто главный? Программисты</text>
+            </navLabel>
+            <content src="section48.xhtml" />
+          </navPoint>
+          <navPoint id="NavPoint-46" playOrder="46">
+            <navLabel>
+              <text>Возможности не всегда нужны</text>
+            </navLabel>
+            <content src="section49.xhtml" />
+          </navPoint>
+          <navPoint id="NavPoint-47" playOrder="47">
+            <navLabel>
+              <text>Итерации и миф о непредсказуемости рынка</text>
+            </navLabel>
+            <content src="section50.xhtml" />
+          </navPoint>
+          <navPoint id="NavPoint-48" playOrder="48">
+            <navLabel>
+              <text>Скрытые издержки некачественного программного обеспечения</text>
+            </navLabel>
+            <content src="section51.xhtml" />
+          </navPoint>
+          <navPoint id="NavPoint-49" playOrder="49">
+            <navLabel>
+              <text>Дороже разработки ПО обходится только разработка плохого ПО</text>
+            </navLabel>
+            <content src="section52.xhtml" />
+          </navPoint>
+          <navPoint id="NavPoint-50" playOrder="50">
+            <navLabel>
+              <text>Стоимость возможностей</text>
+            </navLabel>
+            <content src="section53.xhtml" />
+          </navPoint>
+          <navPoint id="NavPoint-51" playOrder="51">
+            <navLabel>
+              <text>Издержки прототипирования</text>
+            </navLabel>
+            <content src="section54.xhtml" />
+          </navPoint>
+        </navPoint>
+        <navPoint id="NavPoint-52" playOrder="52">
+          <navLabel>
+            <text>Глава 4  Танцующий медведь</text>
+          </navLabel>
+          <content src="section55.xhtml" />
+          <navPoint id="NavPoint-53" playOrder="53">
+            <navLabel>
+              <text>Если это проблема, то почему ее до сих пор не решили?</text>
+            </navLabel>
+            <content src="section57.xhtml" />
+          </navPoint>
+          <navPoint id="NavPoint-54" playOrder="54">
+            <navLabel>
+              <text>Жертва бытовой электроники</text>
+            </navLabel>
+            <content src="section58.xhtml" />
+          </navPoint>
+          <navPoint id="NavPoint-55" playOrder="55">
+            <navLabel>
+              <text>Чем плохи почтовые клиенты</text>
+            </navLabel>
+            <content src="section59.xhtml" />
+          </navPoint>
+          <navPoint id="NavPoint-56" playOrder="56">
+            <navLabel>
+              <text>Чем плохи программы для планирования</text>
+            </navLabel>
+            <content src="section60.xhtml" />
+          </navPoint>
+          <navPoint id="NavPoint-57" playOrder="57">
+            <navLabel>
+              <text>Чем плохи календари</text>
+            </navLabel>
+            <content src="section61.xhtml" />
+          </navPoint>
+          <navPoint id="NavPoint-58" playOrder="58">
+            <navLabel>
+              <text>Массовая веб-истерия</text>
+            </navLabel>
+            <content src="section62.xhtml" />
+          </navPoint>
+          <navPoint id="NavPoint-59" playOrder="59">
+            <navLabel>
+              <text>Что не так с программным обеспечением?</text>
+            </navLabel>
+            <content src="section63.xhtml" />
+          </navPoint>
+          <navPoint id="NavPoint-60" playOrder="60">
+            <navLabel>
+              <text>Программы забывают</text>
+            </navLabel>
+            <content src="section64.xhtml" />
+          </navPoint>
+          <navPoint id="NavPoint-61" playOrder="61">
+            <navLabel>
+              <text>Программы ленивы</text>
+            </navLabel>
+            <content src="section65.xhtml" />
+          </navPoint>
+          <navPoint id="NavPoint-62" playOrder="62">
+            <navLabel>
+              <text>Программы скупы на информацию</text>
+            </navLabel>
+            <content src="section66.xhtml" />
+          </navPoint>
+          <navPoint id="NavPoint-63" playOrder="63">
+            <navLabel>
+              <text>Программы не гибки</text>
+            </navLabel>
+            <content src="section67.xhtml" />
+          </navPoint>
+          <navPoint id="NavPoint-64" playOrder="64">
+            <navLabel>
+              <text>Программы возлагают вину на пользователей</text>
+            </navLabel>
+            <content src="section68.xhtml" />
+          </navPoint>
+          <navPoint id="NavPoint-65" playOrder="65">
+            <navLabel>
+              <text>Программы не несут ответственности</text>
+            </navLabel>
+            <content src="section69.xhtml" />
+          </navPoint>
+        </navPoint>
+        <navPoint id="NavPoint-66" playOrder="66">
+          <navLabel>
+            <text>Глава 5  Нелояльность клиентов</text>
+          </navLabel>
+          <content src="section70.xhtml" />
+          <navPoint id="NavPoint-67" playOrder="67">
+            <navLabel>
+              <text>Привлекательность</text>
+            </navLabel>
+            <content src="section72.xhtml" />
+          </navPoint>
+          <navPoint id="NavPoint-68" playOrder="68">
+            <navLabel>
+              <text>Одно сравнение</text>
+            </navLabel>
+            <content src="section73.xhtml" />
+          </navPoint>
+          <navPoint id="NavPoint-69" playOrder="69">
+            <navLabel>
+              <text>Время выхода на рынок</text>
+            </navLabel>
+            <content src="section74.xhtml" />
+          </navPoint>
+        </navPoint>
+      </navPoint>
+      <navPoint id="NavPoint-70" playOrder="70">
+        <navLabel>
+          <text>Часть III  Как есть суп вилкой</text>
+        </navLabel>
+        <content src="section75.xhtml" />
+        <navPoint id="NavPoint-71" playOrder="71">
+          <navLabel>
+            <text>Глава 6  Психбольница в руках пациентов</text>
+          </navLabel>
+          <content src="section76.xhtml" />
+          <navPoint id="NavPoint-72" playOrder="72">
+            <navLabel>
+              <text>Вождение на заднем сиденье</text>
+            </navLabel>
+            <content src="section78.xhtml" />
+          </navPoint>
+          <navPoint id="NavPoint-73" playOrder="73">
+            <navLabel>
+              <text>Подготовка катастрофы</text>
+            </navLabel>
+            <content src="section79.xhtml" />
+          </navPoint>
+          <navPoint id="NavPoint-74" playOrder="74">
+            <navLabel>
+              <text>Компьютеры против людей</text>
+            </navLabel>
+            <content src="section80.xhtml" />
+          </navPoint>
+          <navPoint id="NavPoint-75" playOrder="75">
+            <navLabel>
+              <text>Учим собак быть кошками</text>
+            </navLabel>
+            <content src="section81.xhtml" />
+          </navPoint>
+        </navPoint>
+        <navPoint id="NavPoint-76" playOrder="76">
+          <navLabel>
+            <text>Глава 7  Ноmo Logicus</text>
+          </navLabel>
+          <content src="section82.xhtml" />
+          <navPoint id="NavPoint-77" playOrder="77">
+            <navLabel>
+              <text>Авиационный тест</text>
+            </navLabel>
+            <content src="section84.xhtml" />
+          </navPoint>
+          <navPoint id="NavPoint-78" playOrder="78">
+            <navLabel>
+              <text>Психология программистов</text>
+            </navLabel>
+            <content src="section85.xhtml" />
+          </navPoint>
+          <navPoint id="NavPoint-79" playOrder="79">
+            <navLabel>
+              <text>Программисты пожертвуют простотой ради контроля</text>
+            </navLabel>
+            <content src="section86.xhtml" />
+          </navPoint>
+          <navPoint id="NavPoint-80" playOrder="80">
+            <navLabel>
+              <text>Программисты обменяют успех на понимание</text>
+            </navLabel>
+            <content src="section87.xhtml" />
+          </navPoint>
+          <navPoint id="NavPoint-81" playOrder="81">
+            <navLabel>
+              <text>Программисты сосредотачиваются на исключительных ситуациях</text>
+            </navLabel>
+            <content src="section88.xhtml" />
+          </navPoint>
+          <navPoint id="NavPoint-82" playOrder="82">
+            <navLabel>
+              <text>Программисты ведут себя грубо и прямолинейно</text>
+            </navLabel>
+            <content src="section89.xhtml" />
+          </navPoint>
+        </navPoint>
+        <navPoint id="NavPoint-83" playOrder="83">
+          <navLabel>
+            <text>Глава 8  Отмирающая культура</text>
+          </navLabel>
+          <content src="section90.xhtml" />
+          <navPoint id="NavPoint-84" playOrder="84">
+            <navLabel>
+              <text>Культура программирования</text>
+            </navLabel>
+            <content src="section92.xhtml" />
+          </navPoint>
+          <navPoint id="NavPoint-85" playOrder="85">
+            <navLabel>
+              <text>Повторное использование кода</text>
+            </navLabel>
+            <content src="section93.xhtml" />
+          </navPoint>
+          <navPoint id="NavPoint-86" playOrder="86">
+            <navLabel>
+              <text>Общепринятая культура</text>
+            </navLabel>
+            <content src="section94.xhtml" />
+          </navPoint>
+          <navPoint id="NavPoint-87" playOrder="87">
+            <navLabel>
+              <text>Культура программирования в Мicrоsоft</text>
+            </navLabel>
+            <content src="section95.xhtml" />
+          </navPoint>
+          <navPoint id="NavPoint-88" playOrder="88">
+            <navLabel>
+              <text>Культурная изоляция</text>
+            </navLabel>
+            <content src="section96.xhtml" />
+          </navPoint>
+          <navPoint id="NavPoint-89" playOrder="89">
+            <navLabel>
+              <text>Шкурный интерес</text>
+            </navLabel>
+            <content src="section97.xhtml" />
+          </navPoint>
+          <navPoint id="NavPoint-90" playOrder="90">
+            <navLabel>
+              <text>Дефицитный образ мыслей</text>
+            </navLabel>
+            <content src="section98.xhtml" />
+          </navPoint>
+          <navPoint id="NavPoint-91" playOrder="91">
+            <navLabel>
+              <text>Обесчеловечивает процесс, а не технология</text>
+            </navLabel>
+            <content src="section99.xhtml" />
+          </navPoint>
+        </navPoint>
+      </navPoint>
+      <navPoint id="NavPoint-92" playOrder="92">
+        <navLabel>
+          <text>Часть IV  Проектирование взаимодействия – выгодный бизнес</text>
+        </navLabel>
+        <content src="section100.xhtml" />
+        <navPoint id="NavPoint-93" playOrder="93">
+          <navLabel>
+            <text>Глава 9  Проектирование для удовольствия</text>
+          </navLabel>
+          <content src="section101.xhtml" />
+          <navPoint id="NavPoint-94" playOrder="94">
+            <navLabel>
+              <text>Персонажи</text>
+            </navLabel>
+            <content src="section103.xhtml" />
+          </navPoint>
+          <navPoint id="NavPoint-95" playOrder="95">
+            <navLabel>
+              <text>Проектируйте для одного персонажа</text>
+            </navLabel>
+            <content src="section104.xhtml" />
+          </navPoint>
+          <navPoint id="NavPoint-96" playOrder="96">
+            <navLabel>
+              <text>Чемодан на колесиках и клейкие бумажки</text>
+            </navLabel>
+            <content src="section105.xhtml" />
+          </navPoint>
+          <navPoint id="NavPoint-97" playOrder="97">
+            <navLabel>
+              <text>Гуттаперчевый пользователь</text>
+            </navLabel>
+            <content src="section106.xhtml" />
+          </navPoint>
+          <navPoint id="NavPoint-98" playOrder="98">
+            <navLabel>
+              <text>Персонаж должен быть конкретным</text>
+            </navLabel>
+            <content src="section107.xhtml" />
+          </navPoint>
+          <navPoint id="NavPoint-99" playOrder="99">
+            <navLabel>
+              <text>Персонаж должен быть воображаемым</text>
+            </navLabel>
+            <content src="section108.xhtml" />
+          </navPoint>
+          <navPoint id="NavPoint-100" playOrder="100">
+            <navLabel>
+              <text>Описание должно быть подробным, а не идеальным</text>
+            </navLabel>
+            <content src="section109.xhtml" />
+          </navPoint>
+          <navPoint id="NavPoint-101" playOrder="101">
+            <navLabel>
+              <text>Реалистичный взгляд на уровень подготовленности</text>
+            </navLabel>
+            <content src="section110.xhtml" />
+          </navPoint>
+          <navPoint id="NavPoint-102" playOrder="102">
+            <navLabel>
+              <text>Персонажи закрывают споры о функциях</text>
+            </navLabel>
+            <content src="section111.xhtml" />
+          </navPoint>
+          <navPoint id="NavPoint-103" playOrder="103">
+            <navLabel>
+              <text>Персонажи нужны проектировщикам и программистам</text>
+            </navLabel>
+            <content src="section112.xhtml" />
+          </navPoint>
+          <navPoint id="NavPoint-104" playOrder="104">
+            <navLabel>
+              <text>Персонаж пользователя, а не покупателя</text>
+            </navLabel>
+            <content src="section113.xhtml" />
+          </navPoint>
+          <navPoint id="NavPoint-105" playOrder="105">
+            <navLabel>
+              <text>Подбор персонажей</text>
+            </navLabel>
+            <content src="section114.xhtml" />
+          </navPoint>
+          <navPoint id="NavPoint-106" playOrder="106">
+            <navLabel>
+              <text>Ключевые персонажи</text>
+            </navLabel>
+            <content src="section115.xhtml" />
+          </navPoint>
+          <navPoint id="NavPoint-107" playOrder="107">
+            <navLabel>
+              <text>Пример: Sony Trans Соm и P@ssport</text>
+            </navLabel>
+            <content src="section116.xhtml" />
+          </navPoint>
+          <navPoint id="NavPoint-108" playOrder="108">
+            <navLabel>
+              <text>Традиционное решение</text>
+            </navLabel>
+            <content src="section117.xhtml" />
+          </navPoint>
+          <navPoint id="NavPoint-109" playOrder="109">
+            <navLabel>
+              <text>Персонажи</text>
+            </navLabel>
+            <content src="section118.xhtml" />
+          </navPoint>
+          <navPoint id="NavPoint-110" playOrder="110">
+            <navLabel>
+              <text>Проектирование для Клевиса</text>
+            </navLabel>
+            <content src="section119.xhtml" />
+          </navPoint>
+        </navPoint>
+        <navPoint id="NavPoint-111" playOrder="111">
+          <navLabel>
+            <text>Глава 10  Проектирование ради результата</text>
+          </navLabel>
+          <content src="section120.xhtml" />
+          <navPoint id="NavPoint-112" playOrder="112">
+            <navLabel>
+              <text>Мы решаем задачи, чтобы достичь целей</text>
+            </navLabel>
+            <content src="section122.xhtml" />
+          </navPoint>
+          <navPoint id="NavPoint-113" playOrder="113">
+            <navLabel>
+              <text>Задачи не являются целями</text>
+            </navLabel>
+            <content src="section123.xhtml" />
+          </navPoint>
+          <navPoint id="NavPoint-114" playOrder="114">
+            <navLabel>
+              <text>Программисты занимаются проектированием, ориентированным на задачи</text>
+            </navLabel>
+            <content src="section124.xhtml" />
+          </navPoint>
+          <navPoint id="NavPoint-115" playOrder="115">
+            <navLabel>
+              <text>Проектирование, ориентированное на цели</text>
+            </navLabel>
+            <content src="section125.xhtml" />
+          </navPoint>
+          <navPoint id="NavPoint-116" playOrder="116">
+            <navLabel>
+              <text>Целеориентированные телевизионные новости</text>
+            </navLabel>
+            <content src="section126.xhtml" />
+          </navPoint>
+          <navPoint id="NavPoint-117" playOrder="117">
+            <navLabel>
+              <text>Целеориентированное управление классом</text>
+            </navLabel>
+            <content src="section127.xhtml" />
+          </navPoint>
+          <navPoint id="NavPoint-118" playOrder="118">
+            <navLabel>
+              <text>Цели личные и цели практические</text>
+            </navLabel>
+            <content src="section128.xhtml" />
+          </navPoint>
+          <navPoint id="NavPoint-119" playOrder="119">
+            <navLabel>
+              <text>Принцип соразмерности усилий</text>
+            </navLabel>
+            <content src="section129.xhtml" />
+          </navPoint>
+          <navPoint id="NavPoint-120" playOrder="120">
+            <navLabel>
+              <text>Личные цели</text>
+            </navLabel>
+            <content src="section130.xhtml" />
+          </navPoint>
+          <navPoint id="NavPoint-121" playOrder="121">
+            <navLabel>
+              <text>Корпоративные цели</text>
+            </navLabel>
+            <content src="section131.xhtml" />
+          </navPoint>
+          <navPoint id="NavPoint-122" playOrder="122">
+            <navLabel>
+              <text>Практические цели</text>
+            </navLabel>
+            <content src="section132.xhtml" />
+          </navPoint>
+          <navPoint id="NavPoint-123" playOrder="123">
+            <navLabel>
+              <text>Ложные цели</text>
+            </navLabel>
+            <content src="section133.xhtml" />
+          </navPoint>
+          <navPoint id="NavPoint-124" playOrder="124">
+            <navLabel>
+              <text>И у компьютера есть человеческие черты</text>
+            </navLabel>
+            <content src="section134.xhtml" />
+          </navPoint>
+          <navPoint id="NavPoint-125" playOrder="125">
+            <navLabel>
+              <text>Проектирование и вежливость</text>
+            </navLabel>
+            <content src="section135.xhtml" />
+          </navPoint>
+          <navPoint id="NavPoint-126" playOrder="126">
+            <navLabel>
+              <text>Что такое вежливость?</text>
+            </navLabel>
+            <content src="section136.xhtml" />
+          </navPoint>
+          <navPoint id="NavPoint-127" playOrder="127">
+            <navLabel>
+              <text>Что делает программы вежливыми?</text>
+            </navLabel>
+            <content src="section137.xhtml" />
+          </navPoint>
+          <navPoint id="NavPoint-128" playOrder="128">
+            <navLabel>
+              <text>Вежливая программа интересуется мной</text>
+            </navLabel>
+            <content src="section138.xhtml" />
+          </navPoint>
+          <navPoint id="NavPoint-129" playOrder="129">
+            <navLabel>
+              <text>Вежливая программа относится ко мне уважительно</text>
+            </navLabel>
+            <content src="section139.xhtml" />
+          </navPoint>
+          <navPoint id="NavPoint-130" playOrder="130">
+            <navLabel>
+              <text>Вежливая программа обходительна</text>
+            </navLabel>
+            <content src="section140.xhtml" />
+          </navPoint>
+          <navPoint id="NavPoint-131" playOrder="131">
+            <navLabel>
+              <text>Вежливая программа ведет себя разумно</text>
+            </navLabel>
+            <content src="section141.xhtml" />
+          </navPoint>
+          <navPoint id="NavPoint-132" playOrder="132">
+            <navLabel>
+              <text>Вежливая программа предвидит мои потребности</text>
+            </navLabel>
+            <content src="section142.xhtml" />
+          </navPoint>
+          <navPoint id="NavPoint-133" playOrder="133">
+            <navLabel>
+              <text>Вежливая программа отзывчива</text>
+            </navLabel>
+            <content src="section143.xhtml" />
+          </navPoint>
+          <navPoint id="NavPoint-134" playOrder="134">
+            <navLabel>
+              <text>Вежливая программа не склонна делиться своими личными проблемами</text>
+            </navLabel>
+            <content src="section144.xhtml" />
+          </navPoint>
+          <navPoint id="NavPoint-135" playOrder="135">
+            <navLabel>
+              <text>Вежливая программа в курсе происходящего</text>
+            </navLabel>
+            <content src="section145.xhtml" />
+          </navPoint>
+          <navPoint id="NavPoint-136" playOrder="136">
+            <navLabel>
+              <text>Вежливая программа проницательна</text>
+            </navLabel>
+            <content src="section146.xhtml" />
+          </navPoint>
+          <navPoint id="NavPoint-137" playOrder="137">
+            <navLabel>
+              <text>Вежливая программа уверена в себе</text>
+            </navLabel>
+            <content src="section147.xhtml" />
+          </navPoint>
+          <navPoint id="NavPoint-138" playOrder="138">
+            <navLabel>
+              <text>Вежливая программа всегда сосредоточена</text>
+            </navLabel>
+            <content src="section148.xhtml" />
+          </navPoint>
+          <navPoint id="NavPoint-139" playOrder="139">
+            <navLabel>
+              <text>Вежливая программа покладиста</text>
+            </navLabel>
+            <content src="section149.xhtml" />
+          </navPoint>
+          <navPoint id="NavPoint-140" playOrder="140">
+            <navLabel>
+              <text>Вежливая программа дает мгновенное удовлетворение</text>
+            </navLabel>
+            <content src="section150.xhtml" />
+          </navPoint>
+          <navPoint id="NavPoint-141" playOrder="141">
+            <navLabel>
+              <text>Вежливой программе можно доверять</text>
+            </navLabel>
+            <content src="section151.xhtml" />
+          </navPoint>
+          <navPoint id="NavPoint-142" playOrder="142">
+            <navLabel>
+              <text>Пример: Drumbeat от Elemental</text>
+            </navLabel>
+            <content src="section152.xhtml" />
+          </navPoint>
+          <navPoint id="NavPoint-143" playOrder="143">
+            <navLabel>
+              <text>Расследование</text>
+            </navLabel>
+            <content src="section153.xhtml" />
+          </navPoint>
+          <navPoint id="NavPoint-144" playOrder="144">
+            <navLabel>
+              <text>Кто кому служит</text>
+            </navLabel>
+            <content src="section154.xhtml" />
+          </navPoint>
+          <navPoint id="NavPoint-145" playOrder="145">
+            <navLabel>
+              <text>Проектирование</text>
+            </navLabel>
+            <content src="section155.xhtml" />
+          </navPoint>
+          <navPoint id="NavPoint-146" playOrder="146">
+            <navLabel>
+              <text>Откат</text>
+            </navLabel>
+            <content src="section156.xhtml" />
+          </navPoint>
+          <navPoint id="NavPoint-147" playOrder="147">
+            <navLabel>
+              <text>Прочие моменты</text>
+            </navLabel>
+            <content src="section157.xhtml" />
+          </navPoint>
+        </navPoint>
+        <navPoint id="NavPoint-148" playOrder="148">
+          <navLabel>
+            <text>Глава 11  Проектирование для людей</text>
+          </navLabel>
+          <content src="section158.xhtml" />
+          <navPoint id="NavPoint-149" playOrder="149">
+            <navLabel>
+              <text>Сценарии</text>
+            </navLabel>
+            <content src="section160.xhtml" />
+          </navPoint>
+          <navPoint id="NavPoint-150" playOrder="150">
+            <navLabel>
+              <text>Повседневные сценарии</text>
+            </navLabel>
+            <content src="section161.xhtml" />
+          </navPoint>
+          <navPoint id="NavPoint-151" playOrder="151">
+            <navLabel>
+              <text>Обязательные сценарии</text>
+            </navLabel>
+            <content src="section162.xhtml" />
+          </navPoint>
+          <navPoint id="NavPoint-152" playOrder="152">
+            <navLabel>
+              <text>Сценарии исключительных ситуаций</text>
+            </navLabel>
+            <content src="section163.xhtml" />
+          </navPoint>
+          <navPoint id="NavPoint-153" playOrder="153">
+            <navLabel>
+              <text>Адаптирующийся интерфейс</text>
+            </navLabel>
+            <content src="section164.xhtml" />
+          </navPoint>
+          <navPoint id="NavPoint-154" playOrder="154">
+            <navLabel>
+              <text>Вечные середняки</text>
+            </navLabel>
+            <content src="section165.xhtml" />
+          </navPoint>
+          <navPoint id="NavPoint-155" playOrder="155">
+            <navLabel>
+              <text>Представь себе!</text>
+            </navLabel>
+            <content src="section166.xhtml" />
+          </navPoint>
+          <navPoint id="NavPoint-156" playOrder="156">
+            <navLabel>
+              <text>Словарь</text>
+            </navLabel>
+            <content src="section167.xhtml" />
+          </navPoint>
+          <navPoint id="NavPoint-157" playOrder="157">
+            <navLabel>
+              <text>Языковой прорыв</text>
+            </navLabel>
+            <content src="section168.xhtml" />
+          </navPoint>
+          <navPoint id="NavPoint-158" playOrder="158">
+            <navLabel>
+              <text>Реальность смеется последней</text>
+            </navLabel>
+            <content src="section169.xhtml" />
+          </navPoint>
+          <navPoint id="NavPoint-159" playOrder="159">
+            <navLabel>
+              <text>Пример: Logitech Scanman</text>
+            </navLabel>
+            <content src="section170.xhtml" />
+          </navPoint>
+          <navPoint id="NavPoint-160" playOrder="160">
+            <navLabel>
+              <text>Малкольм, боец фронта Всемирной паутины</text>
+            </navLabel>
+            <content src="section171.xhtml" />
+          </navPoint>
+          <navPoint id="NavPoint-161" playOrder="161">
+            <navLabel>
+              <text>Чед Марчетти, мальчик</text>
+            </navLabel>
+            <content src="section172.xhtml" />
+          </navPoint>
+          <navPoint id="NavPoint-162" playOrder="162">
+            <navLabel>
+              <text>DPI Магнум</text>
+            </navLabel>
+            <content src="section173.xhtml" />
+          </navPoint>
+          <navPoint id="NavPoint-163" playOrder="163">
+            <navLabel>
+              <text>Игра «Представь себе!»</text>
+            </navLabel>
+            <content src="section174.xhtml" />
+          </navPoint>
+          <navPoint id="NavPoint-164" playOrder="164">
+            <navLabel>
+              <text>Высококлассная обрезка</text>
+            </navLabel>
+            <content src="section175.xhtml" />
+          </navPoint>
+          <navPoint id="NavPoint-165" playOrder="165">
+            <navLabel>
+              <text>Высококлассное изменение размеров</text>
+            </navLabel>
+            <content src="section176.xhtml" />
+          </navPoint>
+          <navPoint id="NavPoint-166" playOrder="166">
+            <navLabel>
+              <text>Высококлассный поворот изображения</text>
+            </navLabel>
+            <content src="section177.xhtml" />
+          </navPoint>
+          <navPoint id="NavPoint-167" playOrder="167">
+            <navLabel>
+              <text>Первоклассные результаты</text>
+            </navLabel>
+            <content src="section178.xhtml" />
+          </navPoint>
+          <navPoint id="NavPoint-168" playOrder="168">
+            <navLabel>
+              <text>Преодоление разрыва между устройствами и программами</text>
+            </navLabel>
+            <content src="section179.xhtml" />
+          </navPoint>
+          <navPoint id="NavPoint-169" playOrder="169">
+            <navLabel>
+              <text>Меньше значит больше</text>
+            </navLabel>
+            <content src="section180.xhtml" />
+          </navPoint>
+        </navPoint>
+      </navPoint>
+      <navPoint id="NavPoint-170" playOrder="170">
+        <navLabel>
+          <text>Часть V  Возвращаемся на место водителя</text>
+        </navLabel>
+        <content src="section181.xhtml" />
+        <navPoint id="NavPoint-171" playOrder="171">
+          <navLabel>
+            <text>Глава 12  В отчаянных поисках эргономики</text>
+          </navLabel>
+          <content src="section182.xhtml" />
+          <navPoint id="NavPoint-172" playOrder="172">
+            <navLabel>
+              <text>Последовательность</text>
+            </navLabel>
+            <content src="section184.xhtml" />
+          </navPoint>
+          <navPoint id="NavPoint-173" playOrder="173">
+            <navLabel>
+              <text>Юзабилити-тестирование</text>
+            </navLabel>
+            <content src="section185.xhtml" />
+          </navPoint>
+          <navPoint id="NavPoint-174" playOrder="174">
+            <navLabel>
+              <text>Юзабилити-тестирование до программирования</text>
+            </navLabel>
+            <content src="section186.xhtml" />
+          </navPoint>
+          <navPoint id="NavPoint-175" playOrder="175">
+            <navLabel>
+              <text>Интеграция юзабилити-тестирования в процесс проектирования</text>
+            </navLabel>
+            <content src="section187.xhtml" />
+          </navPoint>
+          <navPoint id="NavPoint-176" playOrder="176">
+            <navLabel>
+              <text>Многопрофильные команды</text>
+            </navLabel>
+            <content src="section188.xhtml" />
+          </navPoint>
+          <navPoint id="NavPoint-177" playOrder="177">
+            <navLabel>
+              <text>Проектирующие программисты</text>
+            </navLabel>
+            <content src="section189.xhtml" />
+          </navPoint>
+          <navPoint id="NavPoint-178" playOrder="178">
+            <navLabel>
+              <text>Откуда вы знаете?</text>
+            </navLabel>
+            <content src="section190.xhtml" />
+          </navPoint>
+          <navPoint id="NavPoint-179" playOrder="179">
+            <navLabel>
+              <text>Руководства по стилю</text>
+            </navLabel>
+            <content src="section191.xhtml" />
+          </navPoint>
+          <navPoint id="NavPoint-180" playOrder="180">
+            <navLabel>
+              <text>Конфликт интересов</text>
+            </navLabel>
+            <content src="section192.xhtml" />
+          </navPoint>
+          <navPoint id="NavPoint-181" playOrder="181">
+            <navLabel>
+              <text>Фокус-группы</text>
+            </navLabel>
+            <content src="section193.xhtml" />
+          </navPoint>
+          <navPoint id="NavPoint-182" playOrder="182">
+            <navLabel>
+              <text>Визуальное проектирование</text>
+            </navLabel>
+            <content src="section194.xhtml" />
+          </navPoint>
+          <navPoint id="NavPoint-183" playOrder="183">
+            <navLabel>
+              <text>Промышленный дизайн</text>
+            </navLabel>
+            <content src="section195.xhtml" />
+          </navPoint>
+          <navPoint id="NavPoint-184" playOrder="184">
+            <navLabel>
+              <text>Классная новая технология</text>
+            </navLabel>
+            <content src="section196.xhtml" />
+          </navPoint>
+          <navPoint id="NavPoint-185" playOrder="185">
+            <navLabel>
+              <text>Итерации</text>
+            </navLabel>
+            <content src="section197.xhtml" />
+          </navPoint>
+        </navPoint>
+        <navPoint id="NavPoint-186" playOrder="186">
+          <navLabel>
+            <text>Глава 13  Управляемый процесс</text>
+          </navLabel>
+          <content src="section198.xhtml" />
+          <navPoint id="NavPoint-187" playOrder="187">
+            <navLabel>
+              <text>Кто на самом деле самый влиятельный?</text>
+            </navLabel>
+            <content src="section200.xhtml" />
+          </navPoint>
+          <navPoint id="NavPoint-188" playOrder="188">
+            <navLabel>
+              <text>Смертельная спираль: на поводу у клиента</text>
+            </navLabel>
+            <content src="section201.xhtml" />
+          </navPoint>
+          <navPoint id="NavPoint-189" playOrder="189">
+            <navLabel>
+              <text>Концептуальная целостность – важное достоинство</text>
+            </navLabel>
+            <content src="section202.xhtml" />
+          </navPoint>
+          <navPoint id="NavPoint-190" playOrder="190">
+            <navLabel>
+              <text>Фаустова сделка</text>
+            </navLabel>
+            <content src="section203.xhtml" />
+          </navPoint>
+          <navPoint id="NavPoint-191" playOrder="191">
+            <navLabel>
+              <text>Прогнозирование</text>
+            </navLabel>
+            <content src="section204.xhtml" />
+          </navPoint>
+          <navPoint id="NavPoint-192" playOrder="192">
+            <navLabel>
+              <text>Принятие ответственности</text>
+            </navLabel>
+            <content src="section205.xhtml" />
+          </navPoint>
+          <navPoint id="NavPoint-193" playOrder="193">
+            <navLabel>
+              <text>Затраты времени</text>
+            </navLabel>
+            <content src="section206.xhtml" />
+          </navPoint>
+          <navPoint id="NavPoint-194" playOrder="194">
+            <navLabel>
+              <text>Удержание управления</text>
+            </navLabel>
+            <content src="section207.xhtml" />
+          </navPoint>
+          <navPoint id="NavPoint-195" playOrder="195">
+            <navLabel>
+              <text>Поиск основы</text>
+            </navLabel>
+            <content src="section208.xhtml" />
+          </navPoint>
+          <navPoint id="NavPoint-196" playOrder="196">
+            <navLabel>
+              <text>Семь раз отмерь</text>
+            </navLabel>
+            <content src="section209.xhtml" />
+          </navPoint>
+          <navPoint id="NavPoint-197" playOrder="197">
+            <navLabel>
+              <text>Производство фильмов</text>
+            </navLabel>
+            <content src="section210.xhtml" />
+          </navPoint>
+          <navPoint id="NavPoint-198" playOrder="198">
+            <navLabel>
+              <text>Хорошая сделка</text>
+            </navLabel>
+            <content src="section211.xhtml" />
+          </navPoint>
+          <navPoint id="NavPoint-199" playOrder="199">
+            <navLabel>
+              <text>Документируйте замысел, чтобы дать ему жизнь</text>
+            </navLabel>
+            <content src="section212.xhtml" />
+          </navPoint>
+          <navPoint id="NavPoint-200" playOrder="200">
+            <navLabel>
+              <text>Проектирование влияет на код</text>
+            </navLabel>
+            <content src="section213.xhtml" />
+          </navPoint>
+          <navPoint id="NavPoint-201" playOrder="201">
+            <navLabel>
+              <text>Проектировочные документы приносят пользу программистам</text>
+            </navLabel>
+            <content src="section214.xhtml" />
+          </navPoint>
+          <navPoint id="NavPoint-202" playOrder="202">
+            <navLabel>
+              <text>Проектировочные документы идут на пользу маркетингу</text>
+            </navLabel>
+            <content src="section215.xhtml" />
+          </navPoint>
+          <navPoint id="NavPoint-203" playOrder="203">
+            <navLabel>
+              <text>Проектировочные документы помогают в разработке документации и технической поддержке</text>
+            </navLabel>
+            <content src="section216.xhtml" />
+          </navPoint>
+          <navPoint id="NavPoint-204" playOrder="204">
+            <navLabel>
+              <text>Проектировочные документы помогают руководителям</text>
+            </navLabel>
+            <content src="section217.xhtml" />
+          </navPoint>
+          <navPoint id="NavPoint-205" playOrder="205">
+            <navLabel>
+              <text>Проектировочные документы выгодны компании в целом</text>
+            </navLabel>
+            <content src="section218.xhtml" />
+          </navPoint>
+          <navPoint id="NavPoint-206" playOrder="206">
+            <navLabel>
+              <text>Кто отвечает за качество продукта?</text>
+            </navLabel>
+            <content src="section219.xhtml" />
+          </navPoint>
+          <navPoint id="NavPoint-207" playOrder="207">
+            <navLabel>
+              <text>Включение проектирования в процесс</text>
+            </navLabel>
+            <content src="section220.xhtml" />
+          </navPoint>
+          <navPoint id="NavPoint-208" playOrder="208">
+            <navLabel>
+              <text>Откуда берутся проектировщики взаимодействия</text>
+            </navLabel>
+            <content src="section221.xhtml" />
+          </navPoint>
+          <navPoint id="NavPoint-209" playOrder="209">
+            <navLabel>
+              <text>Создание команд проектировщиков</text>
+            </navLabel>
+            <content src="section222.xhtml" />
+          </navPoint>
+        </navPoint>
+        <navPoint id="NavPoint-210" playOrder="210">
+          <navLabel>
+            <text>Глава 14  Мощь и удовольствие</text>
+          </navLabel>
+          <content src="section223.xhtml" />
+          <navPoint id="NavPoint-211" playOrder="211">
+            <navLabel>
+              <text>Пример налаженного проекта</text>
+            </navLabel>
+            <content src="section225.xhtml" />
+          </navPoint>
+          <navPoint id="NavPoint-212" playOrder="212">
+            <navLabel>
+              <text>Осознанное проектирование взаимодействия</text>
+            </navLabel>
+            <content src="section226.xhtml" />
+          </navPoint>
+          <navPoint id="NavPoint-213" playOrder="213">
+            <navLabel>
+              <text>Польза от перемен</text>
+            </navLabel>
+            <content src="section227.xhtml" />
+          </navPoint>
+          <navPoint id="NavPoint-214" playOrder="214">
+            <navLabel>
+              <text>Почему они не едят пирожных?</text>
+            </navLabel>
+            <content src="section228.xhtml" />
+          </navPoint>
+          <navPoint id="NavPoint-215" playOrder="215">
+            <navLabel>
+              <text>Изменить процесс</text>
+            </navLabel>
+            <content src="section229.xhtml" />
+          </navPoint>
+        </navPoint>
+      </navPoint>
+    </navPoint>
+  </navMap>
+</ncx>
