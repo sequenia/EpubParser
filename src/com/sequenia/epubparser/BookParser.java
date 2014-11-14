@@ -6,7 +6,6 @@ import java.io.ByteArrayOutputStream;
 import java.io.IOException;
 import java.io.InputStream;
 import java.util.HashMap;
-import java.util.zip.ZipEntry;
 import java.util.zip.ZipInputStream;
 
 import javax.xml.parsers.DocumentBuilder;
@@ -23,7 +22,7 @@ import android.content.res.Resources;
 public class BookParser {
 	public BookParser() {}
 	
-	private class ManifestItem {
+	public class ManifestItem {
 		public String id;
 		public String href;
 		public String type;
@@ -39,12 +38,12 @@ public class BookParser {
 		String containerFileName = "META-INF/container.xml";
 
 		Book book = new Book();
-		HashMap<String, ByteArrayOutputStream> files = zipToFiles(r, id);
+		FilesTree files = zipToFiles(r, id);
 		
-		org.w3c.dom.Document containerXml = getXmlFromBuffer(files.get(containerFileName));
+		org.w3c.dom.Document containerXml = getXmlFromBuffer(files.findNode(containerFileName).getData());
 		String rootFileName = getRootFileName(containerXml);
 		
-		org.w3c.dom.Document rootFile = getXmlFromBuffer(files.get(rootFileName));
+		org.w3c.dom.Document rootFile = getXmlFromBuffer(files.findNode(rootFileName).getData());
 		if(!parseMetadata(rootFile, book)) { return null; }
 		
 		HashMap<String, ManifestItem> manifest = parseManifest(rootFile);
@@ -171,59 +170,14 @@ public class BookParser {
 		return rootFileName;
 	}
 	
-	private HashMap<String, ByteArrayOutputStream> zipToFiles(Resources r, int id) {
-		InputStream is;
-		ZipInputStream zis;
-		HashMap<String, ByteArrayOutputStream> filesContent = new HashMap<String, ByteArrayOutputStream>();
+	private FilesTree zipToFiles(Resources r, int id) {
 		
-		try {
-			String filename;
-			ByteArrayOutputStream file;
-			is = r.openRawResource(R.raw.bol);
-			zis = new ZipInputStream(new BufferedInputStream(is));
-			ZipEntry ze;
+		InputStream is = r.openRawResource(R.raw.bol);
+		ZipInputStream zis = new ZipInputStream(new BufferedInputStream(is));
 
-			while((ze = zis.getNextEntry()) != null) {
-				filename = ze.getName();
-				
-				if (ze.isDirectory()) {
-	                continue;
-	            }
-				
-				file = getByteBuffer(zis);
-				if(file != null) {
-					filesContent.put(filename, file);
-				} else {
-					return null;
-				}
-				
-				zis.closeEntry();
-			}
-			
-			zis.close();
-		} catch (IOException e) {
-			e.printStackTrace();
-			return null;
-		}
+		FilesTree tree = new FilesTree(zis);
 
-		return filesContent;
-	}
-	
-	private ByteArrayOutputStream getByteBuffer(ZipInputStream zis) {
-		ByteArrayOutputStream byteBuffer = new ByteArrayOutputStream();
-		int bufferSize = 1024;
-		byte[] buffer = new byte[bufferSize];
-		try {
-			int n;
-			while ((n = zis.read(buffer)) != -1) {
-				byteBuffer.write(buffer, 0, n);
-			}
-		} catch (IOException ioException) {
-			ioException.printStackTrace();
-			return null;
-		}
-		
-		return byteBuffer;
+		return tree;
 	}
 	
 	private org.w3c.dom.Document getXmlFromBuffer(ByteArrayOutputStream buffer) {
