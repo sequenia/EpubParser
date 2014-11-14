@@ -27,12 +27,43 @@ public class MainActivity extends ActionBarActivity {
 	protected void onStart() {
 		super.onStart();
 		
-		new BookParser().parseEpub(getResources(), R.raw.bol);
-		
-		// загружаем виджет из ресурсов 
-		TextView text = (TextView)findViewById(R.id.text1);
-		// задаем текст
-		text.setText("Веселуха! Веселуха! Веселуха! Веселуха! Веселуха! Веселуха! Веселуха! Веселуха! Веселуха! Веселуха! Веселуха!");
+		Book book = new BookParser().parseEpub(getResources(), R.raw.bol);
+		if(book != null) {
+			String str = "";
+			
+			int size = book.titles.size();
+			for(int i = 0; i < size; i++) {
+				str += book.titles.get(i) + "\n";
+			}
+			
+			size = book.dates.size();
+			for(int i = 0; i < size; i++) {
+				str += book.dates.get(i) + "\n";
+			}
+			
+			size = book.creators.size();
+			for(int i = 0; i < size; i++) {
+				str += book.creators.get(i) + "\n";
+			}
+			
+			size = book.contributors.size();
+			for(int i = 0; i < size; i++) {
+				str += book.contributors.get(i) + "\n";
+			}
+			
+			size = book.publishers.size();
+			for(int i = 0; i < size; i++) {
+				str += book.publishers.get(i) + "\n";
+			}
+			
+			size = book.descriptions.size();
+			for(int i = 0; i < size; i++) {
+				str += book.descriptions.get(i) + "\n";
+			}
+			
+			TextView text = (TextView)findViewById(R.id.text1);
+			text.setText(str);
+		}
 	}
 
 	@Override

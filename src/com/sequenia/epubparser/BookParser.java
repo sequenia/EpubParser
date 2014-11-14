@@ -21,11 +21,23 @@ import org.xml.sax.SAXException;
 import android.content.res.Resources;
 
 public class BookParser {
-	String containerFileName = "META-INF/container.xml";
-	
 	public BookParser() {}
 	
-	public boolean parseEpub(Resources r, int id) {
+	private class ManifestItem {
+		public String id;
+		public String href;
+		public String type;
+		
+		public ManifestItem(String _id, String _href, String _type) {
+			id = _id;
+			href = _href;
+			type = _type;
+		}
+	}
+	
+	public Book parseEpub(Resources r, int id) {
+		String containerFileName = "META-INF/container.xml";
+
 		Book book = new Book();
 		HashMap<String, ByteArrayOutputStream> files = zipToFiles(r, id);
 		
@@ -33,52 +45,67 @@ public class BookParser {
 		String rootFileName = getRootFileName(containerXml);
 		
 		org.w3c.dom.Document rootFile = getXmlFromBuffer(files.get(rootFileName));
-		writeInfoToBook(book, rootFile);
+		if(!parseMetadata(rootFile, book)) { return null; }
 		
-		return true;
+		HashMap<String, ManifestItem> manifest = parseManifest(rootFile);
+		if(manifest == null) { return null; }
+		
+		return book;
 	}
 	
-	private boolean writeInfoToBook(Book book, org.w3c.dom.Document xml) {
-		if(book == null || xml == null) { return false; }
-		
+	private boolean parseMetadata(org.w3c.dom.Document xml, Book book) {
+		if(book == null || xml == null) {
+			System.out.println("ОШИБКА: parseMetadata - xml is null");
+			return false;
+		}
+
+		String metadataTagName = "metadata";
 		String titleTagName = "dc:title";
 		String dateTagName = "dc:date";
 		String creatorTagName = "dc:creator";
 		String contributorTagName = "dc:contributor";
 		String publisherTagName = "dc:publisher";
 		String descriptionTagName = "dc:description";
+
+		NodeList nList = xml.getElementsByTagName(metadataTagName);
+		if(nList.getLength() == 0) {
+			System.out.println("ОШИБКА: parseMetadata - отсутствуют метаданные.");
+			return false; 
+		}
+		
+		Element metadata = (Element)nList.item(0);
 				
-		NodeList nList = xml.getElementsByTagName(titleTagName);
+		nList =  metadata.getElementsByTagName(titleTagName);
 		for(int i = 0; i < nList.getLength(); i++) {
 			Node nNode = nList.item(i);
 			book.titles.add(nNode.getTextContent());
 		}
 		
-		nList = xml.getElementsByTagName(dateTagName);
+		nList = metadata.getElementsByTagName(dateTagName);
 		for(int i = 0; i < nList.getLength(); i++) {
 			Node nNode = nList.item(i);
 			book.dates.add(nNode.getTextContent());
 		}
 		
-		nList = xml.getElementsByTagName(creatorTagName);
+		nList = metadata.getElementsByTagName(creatorTagName);
 		for(int i = 0; i < nList.getLength(); i++) {
 			Node nNode = nList.item(i);
 			book.creators.add(nNode.getTextContent());
 		}
 		
-		nList = xml.getElementsByTagName(contributorTagName);
+		nList = metadata.getElementsByTagName(contributorTagName);
 		for(int i = 0; i < nList.getLength(); i++) {
 			Node nNode = nList.item(i);
 			book.contributors.add(nNode.getTextContent());
 		}
 		
-		nList = xml.getElementsByTagName(publisherTagName);
+		nList = metadata.getElementsByTagName(publisherTagName);
 		for(int i = 0; i < nList.getLength(); i++) {
 			Node nNode = nList.item(i);
 			book.publishers.add(nNode.getTextContent());
 		}
 		
-		nList = xml.getElementsByTagName(descriptionTagName);
+		nList = metadata.getElementsByTagName(descriptionTagName);
 		for(int i = 0; i < nList.getLength(); i++) {
 			Node nNode = nList.item(i);
 			book.descriptions.add(nNode.getTextContent());
@@ -87,14 +114,55 @@ public class BookParser {
 		return true;
 	}
 	
+	private HashMap<String, ManifestItem> parseManifest(org.w3c.dom.Document xml) {
+		if(xml == null) {
+			System.out.println("ОШИБКА: parseManifest - xml is null");
+			return null;
+		}
+		
+		String manifestTagname = "manifest";
+		String itemTagname = "item";
+		String idAttrname = "id";
+		String hrefAttrname = "href";
+		String typeAttrname = "media-type";
+		
+		NodeList nList = xml.getElementsByTagName(manifestTagname);
+		if(nList.getLength() == 0) {
+			System.out.println("ОШИБКА: parseMetadata - отсутствует манифест.");
+			return null; 
+		}
+		
+		Element manifest = (Element)nList.item(0);
+		HashMap<String, ManifestItem> manifestItems = new HashMap<String, ManifestItem>();
+		
+		nList = manifest.getElementsByTagName(itemTagname);
+		for(int i = 0; i < nList.getLength(); i++) {
+			Node nNode = nList.item(i);
+			Element elem = (Element) nNode;
+			String id = elem.getAttribute(idAttrname);
+			String href = elem.getAttribute(hrefAttrname);
+			String type = elem.getAttribute(typeAttrname);
+			ManifestItem item = new ManifestItem(id, href, type);
+			manifestItems.put(id, item);
+		}
+		
+		return manifestItems;
+	}
+	
 	private String getRootFileName(org.w3c.dom.Document xml) {
-		if(xml == null) { return null; }
+		if(xml == null) {
+			System.out.println("ОШИБКА: getRootFileName - xml is null");
+			return null;
+		}
 
 		String tagName = "rootfile";
 		String attrName = "full-path";
 
 		NodeList nList = xml.getElementsByTagName(tagName);
-		if(nList.getLength() == 0) { return null; }
+		if(nList.getLength() == 0) {
+			System.out.println("ОШИБКА: no rootfile tag in container xml");
+			return null;
+		}
 		
 		Node nNode = nList.item(0);
 		Element eElement = (Element) nNode;
@@ -159,7 +227,10 @@ public class BookParser {
 	}
 	
 	private org.w3c.dom.Document getXmlFromBuffer(ByteArrayOutputStream buffer) {
-		if(buffer == null) { return null; }
+		if(buffer == null) {
+			System.out.println("ОШИБКА: getXmlFromBuffer - buffer is null");
+			return null; 
+		}
 
 		org.w3c.dom.Document doc = null;
 		try {
