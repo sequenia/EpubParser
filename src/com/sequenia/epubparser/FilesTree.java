@@ -59,6 +59,10 @@ public class FilesTree {
 		String[] names = name.split("/");
 		
 		for(int i = 0; i < names.length && rootNode != null; i++) {
+			if(names[i].equals("")) {
+				continue;
+			}
+
 			if(names[i].equals(".")) {
 				rootNode = rootNode.getParent();
 			} else {
