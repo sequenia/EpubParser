@@ -21,4 +21,6 @@ public class EpubInfo {
 	public static final String spineTagName = "spine";
 	public static final String itemrefTagName = "itemref";
 	public static final String idrefAttrName = "idref";
+	
+	public static final String bodyTagName = "body";
 }

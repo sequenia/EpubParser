@@ -51,10 +51,10 @@ public class BookParser {
 		Book book = new Book();
 		FilesTree files = zipToFiles(r, id);
 		
-		org.w3c.dom.Document containerXml = getXmlFromBuffer(files.findNode(containerFileName).getData());
+		org.w3c.dom.Document containerXml = getDomDocumentFromBuffer(files.findNode(containerFileName).getData());
 		String rootFileName = getRootFileName(containerXml);
 		
-		org.w3c.dom.Document rootFile = getXmlFromBuffer(files.findNode(rootFileName).getData());
+		org.w3c.dom.Document rootFile = getDomDocumentFromBuffer(files.findNode(rootFileName).getData());
 		if(!parseMetadata(rootFile, book)) { return null; }
 		
 		HashMap<String, ManifestItem> manifest = parseManifest(rootFile);
@@ -82,7 +82,7 @@ public class BookParser {
 			
 			if(manifestItem.type.equals("application/xhtml+xml")) {
 				FilesNode node = findNode(manifestItem, files, rootPath);
-				org.w3c.dom.Document file = getXmlFromBuffer(node.getData());
+				org.w3c.dom.Document file = getDomDocumentFromBuffer(node.getData());
 				parseSpineFile(file, book);
 			}
 		}
@@ -96,7 +96,14 @@ public class BookParser {
 			return false;
 		}
 		
+		NodeList nList = file.getElementsByTagName(EpubInfo.bodyTagName);
+		if(nList.getLength() == 0) {
+			System.out.println("ОШИБКА: parseSpineFile - отсутствует body в документе.");
+			return false; 
+		}
 		
+		Element body = (Element)nList.item(0);
+		body.getTextContent();
 		
 		return true;
 	}
@@ -249,9 +256,9 @@ public class BookParser {
 		return tree;
 	}
 	
-	private org.w3c.dom.Document getXmlFromBuffer(ByteArrayOutputStream buffer) {
+	private org.w3c.dom.Document getDomDocumentFromBuffer(ByteArrayOutputStream buffer) {
 		if(buffer == null) {
-			System.out.println("ОШИБКА: getXmlFromBuffer - buffer is null");
+			System.out.println("ОШИБКА: getDomDocumentFromBuffer - buffer is null");
 			return null; 
 		}
 
