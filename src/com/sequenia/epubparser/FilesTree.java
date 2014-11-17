@@ -2,15 +2,14 @@ package com.sequenia.epubparser;
 
 import java.io.ByteArrayOutputStream;
 import java.io.IOException;
-import java.util.HashMap;
 import java.util.zip.ZipEntry;
 import java.util.zip.ZipInputStream;
 
 public class FilesTree {
-	private FilesNode root;
+	private FilesNode<ByteArrayOutputStream> root;
 	
 	public FilesTree(ZipInputStream zis) {
-		root = new FilesNode();
+		root = new FilesNode<ByteArrayOutputStream>();
 		root.setParent(null);
 		root.setDirectory(true);
 		
@@ -28,8 +27,8 @@ public class FilesTree {
 					path += names[i] + "/";
 				}
 				
-				FilesNode parent = findNode(path);
-				FilesNode newNode = new FilesNode();
+				FilesNode<ByteArrayOutputStream> parent = (FilesNode<ByteArrayOutputStream>) findNode(path);
+				FilesNode<ByteArrayOutputStream> newNode = new FilesNode<ByteArrayOutputStream>();
 				newNode.setParent(parent);
 				newNode.setDirectory(ze.isDirectory());
 				parent.addChild(shortName, newNode);
@@ -50,12 +49,12 @@ public class FilesTree {
 		}
 	}
 	
-	public FilesNode findNode(String name) {
+	public TreeNode<ByteArrayOutputStream> findNode(String name) {
 		if(name.equals("")) {
 			return root;
 		}
 
-		FilesNode rootNode = root;
+		TreeNode<ByteArrayOutputStream> rootNode = root;
 		String[] names = name.split("/");
 		
 		for(int i = 0; i < names.length && rootNode != null; i++) {
@@ -90,23 +89,8 @@ public class FilesTree {
 		return byteBuffer;
 	}
 	
-	public class FilesNode {
-		private FilesNode parent;
-		private HashMap<String, FilesNode> children;
+	public class FilesNode<T> extends TreeNode<T> {
 		private boolean directory;
-		private ByteArrayOutputStream data;
-		
-		public FilesNode() {
-			children = new HashMap<String, FilesNode>();
-		}
-		
-		public void setParent(FilesNode _parent) {
-			parent = _parent;
-		}
-		
-		public FilesNode getParent() {
-			return parent;
-		}
 		
 		public void setDirectory(boolean _directory) {
 			directory = _directory;
@@ -114,22 +98,6 @@ public class FilesTree {
 		
 		public boolean getDirectory() {
 			return directory;
-		}
-		
-		public void addChild(String name, FilesNode child) {
-			children.put(name, child);
-		}
-		
-		public FilesNode getChild(String name) {
-			return children.get(name);
-		}
-		
-		public void setData(ByteArrayOutputStream _data) {
-			data = _data;
-		}
-		
-		public ByteArrayOutputStream getData() {
-			return data;
 		}
 	}
 }

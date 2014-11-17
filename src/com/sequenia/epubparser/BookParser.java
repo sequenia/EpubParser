@@ -18,8 +18,6 @@ import org.w3c.dom.Node;
 import org.w3c.dom.NodeList;
 import org.xml.sax.SAXException;
 
-import com.sequenia.epubparser.FilesTree.FilesNode;
-
 import android.content.res.Resources;
 
 public class BookParser {
@@ -63,13 +61,23 @@ public class BookParser {
 		ArrayList<SpineItem> spine = parseSpine(rootFile);
 		if(spine == null) { return null; }
 		
+		NavTree nav = parseNavigation();
+		if(nav == null) { return null; }
+		
 		parseBookContent(book, files, manifest, spine, rootFileName);
 		
 		return book;
 	}
 	
-	private boolean parseBookContent(Book book, FilesTree files, HashMap<String, ManifestItem> manifest, ArrayList<SpineItem> spine, String rootFileName) {
+	private NavTree parseNavigation() {
+		NavTree nav = new NavTree();
 		
+		//TODO Подрубить оглавление
+		
+		return nav;
+	}
+	
+	private boolean parseBookContent(Book book, FilesTree files, HashMap<String, ManifestItem> manifest, ArrayList<SpineItem> spine, String rootFileName) {
 		String rootPath = "";
 		
 		String[] names = rootFileName.split("/");
@@ -81,7 +89,7 @@ public class BookParser {
 			ManifestItem manifestItem = manifest.get(spine.get(i).idref);
 			
 			if(manifestItem.type.equals("application/xhtml+xml")) {
-				FilesNode node = findNode(manifestItem, files, rootPath);
+				TreeNode<ByteArrayOutputStream> node = findNode(manifestItem, files, rootPath);
 				org.w3c.dom.Document file = getDomDocumentFromBuffer(node.getData());
 				parseSpineFile(file, book);
 			}
@@ -108,9 +116,9 @@ public class BookParser {
 		return true;
 	}
 	
-	private FilesNode findNode(ManifestItem manifestItem, FilesTree files, String rootPath) {
+	private TreeNode<ByteArrayOutputStream> findNode(ManifestItem manifestItem, FilesTree files, String rootPath) {
 		String filename = manifestItem.href;
-		FilesNode node = files.findNode(filename);
+		TreeNode<ByteArrayOutputStream> node = files.findNode(filename);
 		if(node == null) {
 			node = files.findNode(rootPath + filename);
 		}
