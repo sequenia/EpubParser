@@ -18,6 +18,10 @@ import org.w3c.dom.Node;
 import org.w3c.dom.NodeList;
 import org.xml.sax.SAXException;
 
+import com.sequenia.epubparser.Book.BookPage;
+import com.sequenia.epubparser.Book.PageElem;
+import com.sequenia.epubparser.Book.TextElem;
+
 import android.content.res.Resources;
 
 public class BookParser {
@@ -111,7 +115,12 @@ public class BookParser {
 		}
 		
 		Element body = (Element)nList.item(0);
-		body.getTextContent();
+		String text = body.getTextContent();
+		
+		BookPage page = new BookPage();
+		PageElem pageText = new TextElem(text);
+		page.elements.add(pageText);
+		book.pages.add(page);
 		
 		return true;
 	}

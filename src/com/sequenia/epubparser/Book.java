@@ -13,7 +13,7 @@ public class Book {
 	public ArrayList<String> contributors;
 	public ArrayList<String> publishers;
 	public ArrayList<String> descriptions;
-	public String text;
+	public ArrayList<BookPage> pages;
 	
 	public Book() {
 		titles = new ArrayList<String>();
@@ -22,23 +22,35 @@ public class Book {
 		creators = new ArrayList<String>();
 		publishers = new ArrayList<String>();
 		descriptions = new ArrayList<String>();
-		text = "";
+		pages = new ArrayList<BookPage>();
 	}
 	
-	public class BookElement {
-		public ElemType type;
+	public static class BookPage {
+		public ArrayList<PageElem> elements;
+		
+		public BookPage() {
+			elements = new ArrayList<PageElem>();
+		}
 	}
 	
-	public class TextElem extends BookElement {
+	public static class TextElem extends PageElem {
 		String text;
 		
 		public TextElem() {
-			super();
 			type = ElemType.Text;
 		}
 		
-		public String getData() {
-			return text;
+		public TextElem(String _text) {
+			type = ElemType.Text;
+			text = _text;
+		}
+	}
+	
+	public static class PageElem {
+		public ElemType type;
+		
+		public PageElem() {
+			
 		}
 	}
 }
